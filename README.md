@@ -1,8 +1,8 @@
-### GW_project
+# GW_project
 
 ## Anomaly Characterisation of Noise in Gravitational Wave Detector Data
 
-# Overview
+### Overview
 
 The goal of this project is to test whether the choice of window function carries diagnostic information about the nature of noise anomalies in LIGO detector data. Different glitch types (blips, scattered light arches, power line harmonics) occupy distinct regions of the time-frequency plane, and different windows are differentially sensitive to these morphologies.
 
@@ -10,7 +10,7 @@ We systematically apply multiple window functions and bandpass ranges to segment
 
 Central hypothesis: window preference correlates with glitch morphology, and segments where no window achieves good characterisation may indicate a previously unclassified type of anomaly.
 
-# Current Status
+### Current Status
 
 Completed:
 Data retrieval pipeline for LIGO O3 segments via GWOSC
@@ -28,6 +28,6 @@ Python, GWOSC, gwpy, Astropy, NumPy, Matplotlib
 Repository Structure
 GW_windows.ipynb — main notebook containing data retrieval, window/bandpass comparison, and quality metric analysis
 
-# Author
+### Author
 Kaushiki Roy, B.Sc. Physics, St. Xavier's College, Ahmedabad
 itskaushh@gmail.com
