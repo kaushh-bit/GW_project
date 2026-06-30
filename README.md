@@ -29,5 +29,5 @@ Repository Structure
 GW_windows.ipynb — main notebook containing data retrieval, window/bandpass comparison, and quality metric analysis
 
 ### Author
-Kaushiki Roy, B.Sc. Physics, St. Xavier's College, Ahmedabad //
+Kaushiki Roy, B.Sc. Physics, St. Xavier's College, Ahmedabad  
 itskaushh@gmail.com
