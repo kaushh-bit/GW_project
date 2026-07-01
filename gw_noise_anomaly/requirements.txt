@@ -1,7 +1,0 @@
-gwpy
-astropy
-numpy
-matplotlib
-pandas
-scikit-learn
-jupyter
