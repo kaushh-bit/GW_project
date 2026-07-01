@@ -40,6 +40,8 @@ Python, GWOSC, gwpy, Astropy, NumPy, Matplotlib
 
 #### Contents
 - `GW_windows.ipynb` - main notebook containing data retrieval, window/bandpass comparison, and quality metric analysis
+- `figures/` - contains generated ASD and quality metric in different frequency bands plots of GW190521 (event) and some glitch types.
+- `data/` - all files have not been uploaded to the repo for sizing issues, but contains downloaded hdf5 files from GravitySpy O3a catalogues and GWOSC GWTC according to the required time durations, all H1 data so far.
 
 ---
 
@@ -49,7 +51,7 @@ Python, GWOSC, gwpy, Astropy, NumPy, Matplotlib
 
 #### Overview
 
-We're building a toy gravitational-wave analysis pipeline that starts from a binary black hole's masses, derives the chirp mass, and uses the leading-order post-Newtonian approximation to generate a "clean" vacuum-GR inspiral waveform, modeling how orbital frequency, phase, and strain amplitude evolve over time purely from Newtonian gravity plus relativistic radiation-reaction corrections, deliberately stopping before merger since PN breaks down there and since the interesting physics for our purposes lives in the slow, cumulative inspiral anyway.
+I'm building a toy gravitational-wave analysis pipeline that starts from a binary black hole's masses, derives the chirp mass, and uses the leading-order post-Newtonian approximation to generate a "clean" vacuum-GR inspiral waveform, modeling how orbital frequency, phase, and strain amplitude evolve over time purely from Newtonian gravity plus relativistic radiation-reaction corrections, deliberately stopping before merger since PN breaks down there and since the interesting physics for our purposes lives in the slow, cumulative inspiral anyway.
 
 The next step is to add a dynamical-friction correction term (simulating drag from a dark matter density spike) to this same frequency evolution, generate a second "disturbed" waveform, and compare the two - looking specifically for phase drift (dephasing) that accumulates over many orbital cycles as the signature of dark matter's gravitational influence.
 
